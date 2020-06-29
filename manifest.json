@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+  "name": "Hide DARK SPOILER",
+  "description": "DRAK SPOILER!",
+  "version": "1.2",
+  "icons": {
+    "96": "images/hide.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.facebook.com/*",
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "jquery-3.4.0.min.js",
+        "spoilerHide.js"
+      ]
+    }
+  ]
+}
