@@ -1,0 +1,1 @@
+# DarkSpoilerAlert-ChromeExtension-
